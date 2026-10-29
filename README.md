@@ -2,6 +2,8 @@
 
 A research notebook and descriptive analysis toolkit for corvid vocalizations and observable events. It includes real crow recordings and published captive-rook annotations; it is not a translator.
 
+[Project status and next steps](STATUS.md)
+
 ## First question
 
 Are manually classified call types distributed differently during independently observed aerial threats versus ordinary activity? An association would be a lead for further study, not proof that a call means “hawk.” Species, site, individual, recording conditions, and observer expectations can all confound results.
@@ -36,6 +38,8 @@ python -m unittest discover -s tests
 ```
 
 See the [inventory and its limitations](results/ROOK_INVENTORY.md) and [dataset credit and license](data/rook/PROVENANCE.md). These are annotations from captive rooks; they are not event labels for the crow recording. The corresponding rook audio is available separately from the original dataset and is not bundled here.
+
+The [exploratory rook duration report](results/ROOK_DURATIONS.md) describes annotation durations per identified bird and includes a reproducible command and important sampling limitations. It does not claim a finding about call meaning.
 
 To link separately annotated calls and observation windows, try the invented example:
 

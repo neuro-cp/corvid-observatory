@@ -1,0 +1,43 @@
+{
+  "wav_sha256": "1bca5e38addcc3d5b37e76f06feaae53051b1ff231e8234bc59628a6d81ce046",
+  "mp3_sha256": "3cc6aadb45c7adbf44f2f514686a16bc2965a9d87446763cf95dff3fce22c789",
+  "sample_rate_hz": 44100,
+  "search_lag_seconds": 0.5,
+  "windows": [
+    {
+      "start_s": 30,
+      "duration_s": 5,
+      "lag_samples_mp3_relative_to_wav": 0,
+      "lag_seconds": 0.0,
+      "normalized_peak": 0.965564941749554
+    },
+    {
+      "start_s": 100,
+      "duration_s": 5,
+      "lag_samples_mp3_relative_to_wav": 0,
+      "lag_seconds": 0.0,
+      "normalized_peak": 0.963816214618165
+    },
+    {
+      "start_s": 145,
+      "duration_s": 5,
+      "lag_samples_mp3_relative_to_wav": 0,
+      "lag_seconds": 0.0,
+      "normalized_peak": 0.9668083675609604
+    },
+    {
+      "start_s": 200,
+      "duration_s": 5,
+      "lag_samples_mp3_relative_to_wav": 0,
+      "lag_seconds": 0.0,
+      "normalized_peak": 0.9666867061632753
+    },
+    {
+      "start_s": 270,
+      "duration_s": 5,
+      "lag_samples_mp3_relative_to_wav": 0,
+      "lag_seconds": 0.0,
+      "normalized_peak": 0.9721805103319398
+    }
+  ]
+}

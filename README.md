@@ -37,6 +37,15 @@ python -m unittest discover -s tests
 
 See the [inventory and its limitations](results/ROOK_INVENTORY.md) and [dataset credit and license](data/rook/PROVENANCE.md). These are annotations from captive rooks; they are not event labels for the crow recording. The corresponding rook audio is available separately from the original dataset and is not bundled here.
 
+To link separately annotated calls and observation windows, try the invented example:
+
+```text
+python link_annotations.py examples/calls.csv examples/events.csv --output results/example_linked.csv
+python analyze.py results/example_linked.csv
+```
+
+Inputs use seconds relative to the same recording session. Calls need `session_id,call_id,start_s,end_s,species,call_type,confidence`; observation windows need `session_id,start_s,end_s,event`. Intervals are half-open `[start,end)`. A call receives an event label only if exactly one window overlaps it and covers it completely. Missing coverage and boundary-crossing or overlapping windows are marked `unknown` with a reason, never silently interpreted as no event. A `none` event must be explicitly observed and entered. The result retains the original call times; keep original separate files for audit. Calls with no observations and zero-call sessions must still be tracked via the observation windows and session records, which this join does not summarize. Review synchronization, overlap policy, detection completeness, and independent observation duration before any rate calculation.
+
 ## Field protocol
 
 1. Select sites and observation windows in advance. Record uninterrupted audio where lawful; do not approach nests, bait birds, or play distress calls. Record weather and site separately.

@@ -1,0 +1,4 @@
+session_id,call_id,start_s,end_s,species,call_type,confidence
+fiction-1,c1,1,2,American crow,caw,high
+fiction-1,c2,4.5,5.5,American crow,caw,medium
+fiction-1,c3,8,9,American crow,caw,low

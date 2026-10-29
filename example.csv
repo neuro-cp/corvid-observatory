@@ -1,0 +1,7 @@
+session_id,species,call_type,event,confidence
+demo-1,American crow,harsh call,aerial threat,high
+demo-1,American crow,harsh call,aerial threat,medium
+demo-1,American crow,short call,none,medium
+demo-2,American crow,short call,feeding,high
+demo-2,American crow,short call,feeding,medium
+demo-3,American crow,harsh call,unknown,low

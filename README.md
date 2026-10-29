@@ -1,6 +1,6 @@
 # Corvid Observatory
 
-A small starting point for studying whether crow or raven calls are associated with observable events. This is a research notebook and descriptive analysis tool, not a translator. It contains no real observations yet.
+A research notebook and descriptive analysis toolkit for corvid vocalizations and observable events. It includes one real crow recording and published captive-rook annotations; it is not a translator, and the crow recording has no observed event labels.
 
 ## First question
 
@@ -25,6 +25,15 @@ python -m venv .venv
 On macOS or Linux use `.venv/bin/python` in place of `.venv\Scripts\python`. The output is a waveform and spectrogram, not an automated identification or context classifier. See [recording provenance](data/PROVENANCE.md), [research notes](RESEARCH.md), and the [roadmap](ROADMAP.md).
 
 The example is invented solely to demonstrate the output. Replace it with observations recorded under the protocol below; do not combine example rows with real data.
+
+To reproduce an inventory of published rook annotations (standard Python, no extra packages):
+
+```text
+python rook_inventory.py data/rook/clean_labels.zip --output results/rook_inventory.json
+python -m unittest discover -s tests
+```
+
+See the [inventory and its limitations](results/ROOK_INVENTORY.md) and [dataset credit and license](data/rook/PROVENANCE.md). These are annotations from captive rooks; they are not event labels for the crow recording. The corresponding rook audio is available separately from the original dataset and is not bundled here.
 
 ## Field protocol
 

@@ -1,0 +1,7 @@
+# Captive rook annotations
+
+Martin, Killian; Cornero, Francesca M.; Clayton, Nicola S.; Adam, Olivier; Obin, Nicolas; Dufour, Valérie (2023), *Annotated recordings of two captive groups of rooks, with individual identity and context*, Zenodo, https://doi.org/10.2306/rook.comp. Dataset metadata: https://zenodo.org/records/8036310. License: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/). The archive `clean_labels.zip` is unmodified; source MD5 `4e500dd53a5a3f654e696e1790dd52ef`, checked on 2026-10-28. Annotations are redistributed here with credit under that license.
+
+Related article: Martin et al. (2024), “Vocal complexity in a socially complex corvid: gradation, diversity and lack of common call repertoire in male rooks”, *Royal Society Open Science* 11:231713, https://doi.org/10.1098/rsos.231713.
+
+These TSVs were annotated in captive rook colonies in Strasbourg and Cambridge. They contain time ranges, source, event, sex, colony and song flags. `Inc`, `Pls`, `Comment`, and `Ignore` are special source categories; `Ignore` identifies unreviewed intervals. Event abbreviations are not all defined in the dataset description and must not be guessed. The original complete audio archive is 26.2 GB and is not included. The CSV records do not establish exposure time, equal sampling, causal effects, or meaning of calls. Do not treat rows as independent animals or sessions.

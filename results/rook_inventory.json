@@ -1,0 +1,55 @@
+{
+  "archive_md5": "4e500dd53a5a3f654e696e1790dd52ef",
+  "categories": {
+    "Colony": {
+      "Cambridge": 6149,
+      "Strasbourg": 24999
+    },
+    "Sex": {
+      "Female": 8491,
+      "Ignore": 104,
+      "Inc": 1508,
+      "Male": 19337,
+      "Pls": 1708
+    },
+    "Song": {
+      "FALSE": 15627,
+      "TRUE": 15521
+    },
+    "Source": {
+      "Aristotle": 2357,
+      "Balbo": 5118,
+      "Bashir": 1375,
+      "Braad": 750,
+      "Brain": 1952,
+      "Bussell": 406,
+      "Cassandra": 202,
+      "Connelly": 474,
+      "Elie": 1207,
+      "Feisty": 1206,
+      "Fry": 224,
+      "Gigi": 1475,
+      "Huxley": 335,
+      "Ignore": 104,
+      "Inc": 1508,
+      "Jolene": 2123,
+      "Jonas": 446,
+      "Kafka": 2279,
+      "Leo": 1481,
+      "Merlin": 1708,
+      "Osiris": 628,
+      "Pls": 1708,
+      "Pomme": 872,
+      "Siobhan": 452,
+      "Tom": 758
+    }
+  },
+  "counts": {
+    "annotation_rows": 31148,
+    "blank_event": 7918,
+    "special_source": 3320
+  },
+  "distinct_filename_dates": 41,
+  "invalid_intervals": [],
+  "tsv_files": 107
+}

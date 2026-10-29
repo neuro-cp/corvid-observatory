@@ -1,6 +1,6 @@
 # Corvid Observatory
 
-A research notebook and descriptive analysis toolkit for corvid vocalizations and observable events. It includes one real crow recording and published captive-rook annotations; it is not a translator, and the crow recording has no observed event labels.
+A research notebook and descriptive analysis toolkit for corvid vocalizations and observable events. It includes real crow recordings and published captive-rook annotations; it is not a translator.
 
 ## First question
 
@@ -23,6 +23,8 @@ python -m venv .venv
 ```
 
 On macOS or Linux use `.venv/bin/python` in place of `.venv\Scripts\python`. The output is a waveform and spectrogram, not an automated identification or context classifier. See [recording provenance](data/PROVENANCE.md), [research notes](RESEARCH.md), and the [roadmap](ROADMAP.md).
+
+A second recording includes the recordist's behavioral observations and approximate timestamps. See [XC112598 notes and visualization](results/XC112598_NOTES.md). Those observations have not been independently verified.
 
 The example is invented solely to demonstrate the output. Replace it with observations recorded under the protocol below; do not combine example rows with real data.
 

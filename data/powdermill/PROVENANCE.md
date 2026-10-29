@@ -1,0 +1,9 @@
+# Powdermill soundscape and annotations
+
+Chronister, Lauren M.; Rhinehart, Tessa A.; Place, Aidan; Kitzes, Justin (2021), *An annotated set of audio recordings of Eastern North American birds containing frequency, time, and species information*, [dataset DOI 10.5061/dryad.d2547d81z](https://doi.org/10.5061/dryad.d2547d81z); this copy retrieved from [Zenodo record 4656848](https://zenodo.org/records/4656848). The authors request citation of the associated article: Chronister et al., *Ecology* 102:e03329 (2021), [doi:10.1002/ecy.3329](https://doi.org/10.1002/ecy.3329). Zenodo's API identifies the dataset license as [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Credit is retained here.
+
+- `annotation_Files.zip`: original, unchanged archive, source MD5 `8f78ba7cf9fc5d25656f7747ed3406d1`; verified 2026-10-29.
+- `SOURCE_README.txt`: unchanged source README, source MD5 `a1b4cbf97261285f9363d555d5b01259`; verified 2026-10-29.
+- `Recording_1_Segment_22.mp3`: one unmodified member extracted from Zenodo's `mp3_Files.zip` via range requests, using ZIP member CRC validation; SHA-256 `3cc6aadb45c7adbf44f2f514686a16bc2965a9d87446763cf95dff3fce22c789`. The 182,276,751-byte parent archive's full MD5 was not independently checked. Reproduce extraction with `python fetch_powdermill_sample.py` (range transfer capped at 8 MB).
+
+The source README says recordings were sampled at 32 kHz, but this selected MP3 decodes at **44,100 Hz**, for 300 seconds. The plotter uses the decoded sample rate. MP3 compression and potential timing offsets can affect close alignment; no sample-accurate alignment with the original WAV was checked. The authors report that three researchers contributed to the annotations and that identifiable vocalizations except short chips were annotated. These labels are not exhaustive detections of all sounds, and no behavior, individual identity, predator event, or meaning is provided.

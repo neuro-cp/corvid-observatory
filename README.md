@@ -28,6 +28,8 @@ On macOS or Linux use `.venv/bin/python` in place of `.venv\Scripts\python`. The
 
 A second recording includes the recordist's behavioral observations and approximate timestamps. See [XC112598 notes and visualization](results/XC112598_NOTES.md). Those observations have not been independently verified.
 
+The [Powdermill example](results/POWDERMILL_NOTES.md) pairs an actual soundscape with expert time-frequency labels for American crows. It includes the original source audio and annotation archive, and a reproducible figure; these labels describe species, not behavior or meaning.
+
 The example is invented solely to demonstrate the output. Replace it with observations recorded under the protocol below; do not combine example rows with real data.
 
 To reproduce an inventory of published rook annotations (standard Python, no extra packages):

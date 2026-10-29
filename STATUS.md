@@ -5,6 +5,7 @@ Corvid Observatory is an open, early-stage research project, not a translator. T
 ## Completed
 
 - Two American crow recordings with provenance, checksums, and reproducible waveform/spectrogram generation. One includes the recordist's behavioral notes with approximate times, not independently reviewed event intervals.
+- A Powdermill soundscape segment matched to expert American crow time-frequency labels and a reproducible overlay. These labels identify species rather than behavioral context.
 - A CC-BY 4.0 archive of captive rook annotations with checksum verification and a descriptive inventory.
 - An exploratory per-identified-rook duration summary, including a report of the comparison's sampling and interpretation limitations.
 - A CSV joiner for independently observed behavior and calls, which retains missing or ambiguous matches as unknown; example inputs are invented.
